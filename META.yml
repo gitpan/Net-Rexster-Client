@@ -15,17 +15,20 @@ name: Net-Rexster-Client
 provides:
   Net::Rexster::Client:
     file: lib/Net/Rexster/Client.pm
-    version: v0.0.1
+    version: v0.0.2
 requires:
   Carp: 0
   Encode: 0
   JSON: 0
   LWP::UserAgent: 0
   Moose: 0
+  Test::Fake::HTTPD: 0
+  Test::MockObject: 0
+  Test::MockObject::Extends: 0
   Test::More: 0
   URI::Escape: 0
   utf8: 0
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: v0.0.1
+version: v0.0.2
