@@ -30,6 +30,7 @@
             "Test::MockObject" : 0,
             "Test::MockObject::Extends" : 0,
             "Test::More" : 0,
+            "Test::Perl::Critic" : 0,
             "URI::Escape" : 0,
             "utf8" : 0,
             "version" : 0
@@ -39,7 +40,7 @@
    "provides" : {
       "Net::Rexster::Client" : {
          "file" : "lib/Net/Rexster/Client.pm",
-         "version" : "v0.0.2"
+         "version" : "v0.0.3"
       }
    },
    "release_status" : "stable",
@@ -48,5 +49,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v0.0.2"
+   "version" : "v0.0.3"
 }
