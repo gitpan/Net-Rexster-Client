@@ -8,7 +8,7 @@ use Moose;
 use Net::Rexster::Request;
 
 use version; 
-our $VERSION = qv('0.0.3');
+our $VERSION = qv('0.0.4');
 
 has 'server' => (is => 'rw', isa => 'Str', default => 'http://localhost:8182');
 has 'graph'  => (is => 'rw', isa => 'Str', required => 1);
@@ -400,7 +400,7 @@ Net::Rexster::Client - Handle Rexster REST request and response
 
 =head1 VERSION
 
-This document describes Net::Rexster version 0.0.2
+This document describes Net::Rexster version 0.0.4
 
 =head1 SYNOPSIS
 

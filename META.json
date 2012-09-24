@@ -40,7 +40,15 @@
    "provides" : {
       "Net::Rexster::Client" : {
          "file" : "lib/Net/Rexster/Client.pm",
-         "version" : "v0.0.3"
+         "version" : "v0.0.4"
+      },
+      "Net::Rexster::Request" : {
+         "file" : "lib/Net/Rexster/Request.pm",
+         "version" : 0
+      },
+      "Net::Rexster::Response" : {
+         "file" : "lib/Net/Rexster/Response.pm",
+         "version" : 0
       }
    },
    "release_status" : "stable",
@@ -49,5 +57,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v0.0.3"
+   "version" : "v0.0.4"
 }
