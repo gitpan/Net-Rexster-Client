@@ -40,7 +40,7 @@
    "provides" : {
       "Net::Rexster::Client" : {
          "file" : "lib/Net/Rexster/Client.pm",
-         "version" : "v0.0.4"
+         "version" : "v0.0.5"
       },
       "Net::Rexster::Request" : {
          "file" : "lib/Net/Rexster/Request.pm",
@@ -57,5 +57,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v0.0.4"
+   "version" : "v0.0.5"
 }

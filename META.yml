@@ -15,7 +15,7 @@ name: Net-Rexster-Client
 provides:
   Net::Rexster::Client:
     file: lib/Net/Rexster/Client.pm
-    version: v0.0.4
+    version: v0.0.5
   Net::Rexster::Request:
     file: lib/Net/Rexster/Request.pm
     version: 0
@@ -38,4 +38,4 @@ requires:
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: v0.0.4
+version: v0.0.5
